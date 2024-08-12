@@ -1,0 +1,38 @@
+{
+  "name": "design-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "preview": "rsbuild preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.7.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@rsbuild/core": "^1.0.1-beta.11",
+    "@rsbuild/plugin-react": "^1.0.1-beta.11",
+    "@storybook/addon-essentials": "^8.2.8",
+    "@storybook/addon-interactions": "^8.2.8",
+    "@storybook/addon-links": "^8.2.8",
+    "@storybook/addon-onboarding": "^8.2.8",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.2.8",
+    "@storybook/react": "^8.2.8",
+    "@storybook/test": "^8.2.8",
+    "@stylexjs/babel-plugin": "^0.7.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "prettier": "^3.3.3",
+    "storybook": "^8.2.8",
+    "storybook-react-rsbuild": "^0.0.11",
+    "typescript": "^5.5.2"
+  }
+}
